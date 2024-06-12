@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700&display=swap');
+
+:root {
+  --background-color: #2B2D42;
+  --primary-accent: #8D99AE;
+  --secondary-accent: #EDF2F4;
+  --highlight-color: #EF233C;
+  --highlight-color-2: #D90429;
+  --text-primary: #FFFFFF;
+  --text-secondary: #8D99AE;
+}
+
+.kanit-light {
+  font-weight: 100;
+}
+
+.kanit-regular {
+  font-weight: 400;
+}
+
+.kanit-bold {
+  font-weight: 700;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+  max-width: 800px;
+}
+
+hr {
+  margin: 1em auto;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: var(--text-secondary);
+  /* old IE */
+  background-color: var(--text-secondary);
+  /* Modern Browsers */
+}
